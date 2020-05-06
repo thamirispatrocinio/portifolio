@@ -1,0 +1,28 @@
+.fa-phoenix-framework{
+ 
+    font-size: 20px;
+}
+
+div #animation{
+    animation-timing-function: cubic-bezier(0,0,1,1);
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+  .navbar{
+    background-color: #597eab;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  /*hover é um evento*/
+  .nav-link:hover{
+    color: #b5d4f9;
+
+  }
